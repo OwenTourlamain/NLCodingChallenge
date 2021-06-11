@@ -55,6 +55,6 @@ To test the API launch the web app and then run: `curl POST
 http://localhost:8080/ -d @test-data.json --header "Content-Type:
 application/json"`
 
-The API can also be tested by visiting `http://localhost/test/` in a web
+The API can also be tested by visiting `http://localhost:8080/test/` in a web
 browser. This will load the file `farsi-english-script.json` as if it was passed
 as JSON data and render the output in the web browser.
