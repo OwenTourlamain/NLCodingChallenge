@@ -84,6 +84,8 @@ def scriptparser(data):
 
             # try to detect the language, the quiet flag surpresses an exception
             # when the language can't be detected
+            # This detector isn't very accurate but was easier to set up than
+            # the others, can be easily swapped out in the furute if needed
             lang = Detector(d, quiet=True).languages[0].name.lower()
 
             # check if this string is metadata
